@@ -13,6 +13,7 @@ body {
     align-items: center;
     padding: 10px 20px;
     border-radius: 0px 0px 50px 50px;
+    background: linear-gradient(to bottom, rgba(38, 55, 66), rgb(56, 48, 85));
 }
 .headr h1{
     font-weight: bold;
