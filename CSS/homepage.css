@@ -1,0 +1,36 @@
+body {
+    background-image: url('../Img/Background.jpg');
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    color: white;
+}
+.headr{
+    background-color:rgb(38, 55, 66);
+    width: auto;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 0px 0px 50px 50px;
+}
+.headr h1{
+    font-weight: bold;
+}
+.logo{
+    display:flex;
+    align-items:center;
+}
+
+.headr img{
+    height:180px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+nav a{
+    margin-left:auto;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
