@@ -7,13 +7,14 @@ body {
 
 .headr{
     background-color:rgb(38, 55, 66);
-    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 1440px;
     height: 150px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 10px 20px;
-    border-radius: 0px 0px 50px 50px;
+    border-radius: 15px 15px 50px 50px;
     background: linear-gradient(to bottom, rgba(38, 55, 66), rgb(56, 48, 85));
 }
 .headr h1{
@@ -27,14 +28,6 @@ body {
 .headr img{
     height:180px;
     margin-left:auto;
-    margin-right:auto;
-}
-
-nav a{
-    margin-left:auto;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
 }
 
 .homepage {
@@ -126,4 +119,32 @@ nav a{
         transform: translateX(0%);
     }
 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1485px;
+}
+
+.navbar {
+    margin-top: 10px;
+    background-color: rgb(38, 55, 66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    border-radius: 50px;
+    background: linear-gradient(to bottom, rgba(38, 55, 66), rgb(56, 48, 85));
+    width: 800px;
+}
+
+.navbar a {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0 15px;
+    text-decoration: none;
 }
